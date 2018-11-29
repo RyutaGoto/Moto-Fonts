@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "Moto Fonts";
+  src: url("https://raw.githubusercontent.com/RyutaGoto/Moto-Fonts/master/MotoSansSerif-Regular.ttf") format("truetype");
+}
+
+body {
+  font-family: "Moto Fonts";
+  text-align: center;
+}
