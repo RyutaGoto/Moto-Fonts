@@ -5,5 +5,16 @@
 
 body {
   font-family: "Moto Fonts";
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+p {
+  font-size: 30px;
   text-align: center;
 }
