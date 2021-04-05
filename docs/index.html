@@ -16,5 +16,18 @@
 <body>
   <h1>MOTO FONTS</h1>
   <p>This is the introductory web page for the Moto Fonts which is made in order to pay homage to Google Noto Fonts</p>
+  <div>
+    <input type="textarea" id="text" />
+    <p id="preview"></p>
+  </div>
 </body>
+<script type="text/javascript">
+  const textarea = document.getElementById("text")
+  const preview = document.getElementById("preview")
+  textarea.addEventListener('change', (event) => {
+    preview.textContent = event.target.value
+  })
+  textarea.value = 'Hello World'
+  preview.textContent = 'Hello World'
+</script>
 </html>
