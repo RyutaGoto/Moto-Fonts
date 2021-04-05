@@ -24,7 +24,7 @@
 <script type="text/javascript">
   const textarea = document.getElementById("text")
   const preview = document.getElementById("preview")
-  textarea.addEventListener('change', (event) => {
+  textarea.addEventListener('input', (event) => {
     preview.textContent = event.target.value
   })
   textarea.value = 'Hello World'
